@@ -14,7 +14,7 @@ pipeline {
                 script {
                     sh './PES1UG21CS690-1'
                     echo 'Test Stage Successful'
-                }
+                
             }
         }
         stage('Deploy') {
