@@ -12,9 +12,9 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './PES1UG21CS690-1'
+                    sh './PES1UG21CS60-1'
                     echo 'Test Stage Successful'
-                
+                }
             }
         }
         stage('Deploy') {
